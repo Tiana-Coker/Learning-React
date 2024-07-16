@@ -11,3 +11,10 @@ Learnt the basics of React components.
 In this lesson, I learnt how to create card components in React:
 - Designed a Card component to display content in a structured format.
 - Implemented styles to make the Card component visually appealing.
+
+## Lesson 3: Styling React Components with CSS
+
+In this lesson, I learned how to style React components using different methods:
+- Inline styles
+- CSS Modules
+- External CSS stylesheets
