@@ -10,3 +10,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.student{
+  padding:10px;
+  border:1px solid hsla(0, 0%, 50%, 0.8);
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+.student p{
+  margin:0;
+}
