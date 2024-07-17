@@ -1,15 +1,20 @@
+
 import Students from './Students'
 
 function App() {
-  
+  const students = [
+    {name: 'Emeka Okafor', age: 35, isStudent: false},
+    {name: 'Aminat Aminu', age: 24, isStudent: true},
+  ]
 
   return (
     <>
-      <Students name="Damilola Coker" age={"23"} isStudent={true}/>
-      <Students name="Segun Olalere" age={42} isStudent={false}/>
-      <Students name="Emeka Okafor" age={35} isStudent={false}/>
-      <Students name="Aminat Aminu" age={24} isStudent={true}/>
-      <Students/>
+      {
+        students.map((student, index) => (
+          <Students key={index} name={student.name} age={student.age} isStudent={student.isStudent}/>
+        ))
+      }
+      
     </>
   )
 }

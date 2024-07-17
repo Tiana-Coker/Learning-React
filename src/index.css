@@ -11,12 +11,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.student{
+.container{
   padding:10px;
-  border:1px solid hsla(0, 0%, 50%, 0.8);
+  /*border:1px solid hsla(0, 0%, 50%, 0.8);*/
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
   max-width: 250px;
   margin-bottom: 15px;
 }
-.student p{
+.container p{
   margin:0;
 }
