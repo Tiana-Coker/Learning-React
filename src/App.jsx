@@ -1,3 +1,4 @@
+import UserGreeting from "./UserGreeting"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <UserGreeting isLoggedIn={true} username="Tiana"/>
     </>
   )
 }

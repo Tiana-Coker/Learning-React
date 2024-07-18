@@ -27,3 +27,9 @@ In this lesson, I learned about:
 - Passing data to components using props.
 - Validating prop types using `propTypes`.
 - Setting default values for props using `defaultProps`.
+
+## Lesson 5: Conditional Rendering
+
+In this lesson, I learned about conditional rendering in React:
+- Rendering elements based on conditions using `if` statements.
+- Using ternary operators for conditional rendering.
